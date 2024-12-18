@@ -9,7 +9,11 @@ jobs:
     name: Build Node
     runs-on: ubuntu-latest
     container: node:14
+    
     steps:
       - run: node --version
+        name: Verifica a versão node
+      - name: Checkout repository
+        uses: actions/checkout@v4.1.6
       - run: npm --version
       - run: npm install
