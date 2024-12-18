@@ -1,5 +1,6 @@
-name: Node Continuous Integration
+name: Exemplo do Node
 on: push
+workflow_dispatch:
 jobs:
   build-node:
     name: Build Node
