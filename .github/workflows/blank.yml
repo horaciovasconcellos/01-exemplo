@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Simple
+name: Simples
 
 # Controls when the workflow will run
 on:
@@ -16,7 +16,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   dev:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - name: Run a one-line script
@@ -26,7 +26,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
   uat:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: dev
     steps:
       - uses: actions/checkout@v4
