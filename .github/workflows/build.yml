@@ -2,7 +2,7 @@ name: Exemplo do Node
 on: 
  push:
    branches:
-   - main
+   - maino
  workflow_dispatch:
 jobs:
   build-node:
