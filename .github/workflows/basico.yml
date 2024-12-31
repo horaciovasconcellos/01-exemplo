@@ -2,7 +2,7 @@ name:  Basico
 on: 
  push:
    branches:
-   - main
+   - maino
  workflow_dispatch:
 jobs:
   prod-check:
