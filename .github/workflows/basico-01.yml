@@ -1,5 +1,5 @@
 name: CI
-on: push
+on: pushe
 jobs:
   prod-check:
     if: github.ref == 'refs/heads/main'
